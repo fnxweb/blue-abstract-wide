@@ -97,7 +97,7 @@
             <state name="TV_WATCH_RECORDINGS">
                 <imagetype name="watermark">
                     <mask>images/background_mask.png</mask>
-                    <filename>images/watermarks/tvshow.jpg</filename>
+                    <filename>images/watermarks/livetv.jpg</filename>
                     <area>0,0,1280,720</area>
                 </imagetype>
             </state>
@@ -114,7 +114,7 @@
             <state name="TV_WATCH_RECORDINGS">
                 <imagetype name="watermark">
                     <mask>images/background_mask.png</mask>
-                    <filename>images/watermarks/tvshow.jpg</filename>
+                    <filename>images/watermarks/livetv.jpg</filename>
                     <area>0,0,1280,720</area>
                 </imagetype>
             </state>
