@@ -356,6 +356,12 @@
             <template>%STARTTIME%-%ENDTIME% : %LENMINS%</template>
         </textarea>
 
+        <textarea name="episode" from="title">
+            <area>540,495,200,36</area>
+            <font>text</font>
+            <template>%S00E00%</template>
+        </textarea>
+
         <!-- separates the title and channel and the 
              status icons from the description -->
         <shape name="program_info_separator">
@@ -366,8 +372,8 @@
 
         <!-- show the channel or the channel name if 
              no channel icon is available -->
-<!--
-        <textarea name="callsign">
+
+        <textarea name="channame">
             <area>130,560,113,80</area>
             <align>allcenter</align>
             <multiline>yes</multiline>
@@ -375,7 +381,7 @@
             <scroll direction="vertical" rate="10"/>
             <font>text</font>
         </textarea>
--->
+<!--
         <imagetype name="iconpath_background_image">
             <area>120,550,133,100</area>
             <mask>images/media/channel_nfmask.png</mask>
@@ -391,15 +397,15 @@
             <area>120,550,133,100</area>
             <filename>images/media/channel_nfborder.png</filename>
         </imagetype>
-
+-->
         <textarea name="channum">
             <area>120,650,133,36</area>
-            <align>left,vcenter</align>
+            <align>allcenter</align>
             <multiline>no</multiline>
             <cutdown>no</cutdown>
             <scroll direction="horizontal" rate="35"/>
             <font>text</font>
-            <template>Channel: %1</template>
+            <template>%1</template>
         </textarea>
 
         <shape name="description_separator">
@@ -803,8 +809,8 @@
 
         <!-- show the channel or the channel name if 
              no channel icon is available -->
-<!--
-        <textarea name="callsign">
+
+        <textarea name="channame">
             <area>130,560,113,80</area>
             <align>allcenter</align>
             <multiline>yes</multiline>
@@ -812,7 +818,7 @@
             <scroll direction="vertical" rate="10"/>
             <font>text</font>
         </textarea>
--->
+<!--
         <imagetype name="iconpath_background_image">
             <area>120,550,133,100</area>
             <mask>images/media/channel_nfmask.png</mask>
@@ -828,15 +834,15 @@
             <area>120,550,133,100</area>
             <filename>images/media/channel_nfborder.png</filename>
         </imagetype>
-
+-->
         <textarea name="channum">
             <area>120,650,133,36</area>
-            <align>left,vcenter</align>
+            <align>allcenter</align>
             <multiline>no</multiline>
             <cutdown>no</cutdown>
             <scroll direction="horizontal" rate="35"/>
             <font>text</font>
-            <template>Channel: %1</template>
+            <template>%1</template>
         </textarea>
 
         <shape name="description_separator">

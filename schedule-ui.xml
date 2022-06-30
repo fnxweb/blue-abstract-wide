@@ -274,7 +274,7 @@
         <textarea name="norecordings_info" from="base_textarea">
             <area>220,50,840,430</area>
             <align>allcenter</align>
-            <value>You Haven't Scheduled Any Programs To Be Recorded.\nTo schedule a recording, exit this screen and select 'Program Guide' or 'Program Finder'</value>
+            <value>Loading scheduled recordings ...</value>
             <multiline>yes</multiline>
         </textarea>
 
